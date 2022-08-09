@@ -1,0 +1,67 @@
+
+.banner {
+   width: 50%;
+   border-radius: 33%;
+   border-color: #483D8B;
+   border-width: 10px;
+   border-style: outset;
+
+}
+.caixa{
+   position: relative;
+   width: 940px;
+   right: 0 auto;
+}
+header{
+   background: #CCCCCC;
+}
+nav li{
+   display: inline;
+   margin: 0 0 0 15px; /*espasçamento*/
+}
+nav a{
+   text-transform: uppercase;
+   font-weight: bold;
+   font-size: 30px;
+   text-decoration: none;
+
+}
+nav a:hover{
+   color: #C78C19;
+}
+
+nav{
+   position: absolute;
+   top: 110px;
+   right: 0;
+}
+
+.produto li{
+   display: inline-block;
+   margin: 15px;
+   text-align: center;
+   border-color: #483D8B;
+   border-width: 10px;
+   border-style: outset;
+   vertical-align: top;
+
+}
+.produto img{
+
+   width: 200px;
+   height: 200px;
+
+}
+.produto li:hover{
+   border-color: #C78C19;
+
+}
+.produto li:active{
+   border-color: #088C19;
+}
+.produto li:hover h2{
+   text-transform: uppercase;
+   font-size: 20px;
+}
+
+
